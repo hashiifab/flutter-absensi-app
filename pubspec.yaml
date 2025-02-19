@@ -1,6 +1,6 @@
 name: flutter_absensi_app
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -9,6 +9,18 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cupertino_icons: ^1.0.8 # Cupertino Icons
+  dotted_border: ^2.1.0 # Dotted Border
+  camera: ^0.11.0+2 # Camera
+  geolocator: ^13.0.2 # Geolocation
+  geocoding: ^3.0.0 # Geocoding
+  intl: ^0.20.1 # Internationalization Library untuk format tanggal, waktu, dan angka dalam berbagai bahasa.
+  lottie: ^3.3.1 # Lottie Animation
+  google_mlkit_face_detection: ^0.12.0 # Face Detection
+  cloud_firestore: ^5.6.3 # Connect Cloud Firestore (firebase database)
+  firebase_core: ^3.11.0 # Connect Flutter to Firebase
+  firebase_auth: ^5.4.2 # Firebase Authentication
+  image_picker: ^1.1.2 # Image Picker
 
 dev_dependencies:
   flutter_test:
