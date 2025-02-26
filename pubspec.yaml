@@ -21,6 +21,10 @@ dependencies:
   firebase_core: ^3.11.0 # Connect Flutter to Firebase
   firebase_auth: ^5.4.2 # Firebase Authentication
   image_picker: ^1.1.2 # Image Picker
+  fl_chart: ^0.70.2
+  firebase_storage: ^12.4.3
+  http: ^1.3.0
+  
 
 dev_dependencies:
   flutter_test:
